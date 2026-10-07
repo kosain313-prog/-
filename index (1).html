@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>인사이트 뉴스 피드</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{min-height:100%;background:#fafafa}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#262626;display:flex;justify-content:center;padding:20px 0}
+.container{width:100%;max-width:500px;background:#fff;border:1px solid #dbdbdb;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,.05);overflow:hidden}
+header{position:sticky;top:0;z-index:100;background:#fff;border-bottom:1px solid #dbdbdb;padding:14px 16px;text-align:center;font-size:1.2rem;font-weight:800;letter-spacing:.5px;background:linear-gradient(45deg,#833ab4,#fd1d1d,#fcb045);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.profile{padding:16px;display:flex;align-items:center;gap:14px;border-bottom:1px solid #dbdbdb;background:#fff}
+.avatar{width:50px;height:50px;border-radius:50%;background:linear-gradient(45deg,#833ab4,#fd1d1d,#fcb045);padding:2px;flex-shrink:0}.avatar-inner{width:100%;height:100%;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;font-size:.65rem;font-weight:900;color:#262626}.profile-info{display:flex;flex-direction:column;gap:2px}.username{font-size:.95rem;font-weight:700}.bio{font-size:.8rem;color:#8e8e8e}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;padding:4px;background:#efefef}.card{background:#fff;border:1px solid #e6e6e6;border-radius:6px;text-decoration:none;color:#262626;display:flex;flex-direction:column;justify-content:space-between;padding:10px 8px;min-height:140px;transition:transform .15s ease,box-shadow .15s ease}.card:hover{transform:translateY(-2px);box-shadow:0 4px 8px rgba(0,0,0,.08);border-color:#ccc}.card-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}.badge{font-size:.65rem;font-weight:800;color:#fff;background:linear-gradient(45deg,#833ab4,#fd1d1d);padding:2px 6px;border-radius:4px}.link-icon{font-size:.75rem;color:#a8a8a8;font-weight:bold}.card-title{font-size:.72rem;font-weight:600;line-height:1.35;color:#262626;word-break:keep-all}
+@media(max-width:420px){body{padding:0}.container{border-radius:0;border-left:0;border-right:0}.grid{grid-template-columns:repeat(2,1fr)}.card{min-height:125px}}
+</style>
+</head>
+<body>
+<div class="container">
+<header>INSIGHT NEWS</header>
+<div class="profile"><div class="avatar"><div class="avatar-inner">INSIGHT</div></div><div class="profile-info"><div class="username">insight.co.kr</div><div class="bio">인사이트 주요 뉴스 피드 모음 (12개)</div></div></div>
+<div class="grid">
+<a class="card" href="https://www.instagram.com/p/DeLBR1ij0Nk/" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="badge">#1</span><span class="link-icon">↗</span></div><div class="card-title">"페스트균 시험관 깨졌다" 러시아 연구원 사망에 초비상... 200명 격리</div></a>
+<a class="card" href="https://www.instagram.com/p/DeK6hC6ibvB/" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="badge">#2</span><span class="link-icon">↗</span></div><div class="card-title">드론 2000대에 불꽃 규모 3배... 세종한글축제 사흘 동안 밤하늘이 달라진다</div></a>
+<a class="card" href="https://www.instagram.com/p/DeK3EHdEpty/" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="badge">#3</span><span class="link-icon">↗</span></div><div class="card-title">좁은 지하철서 다리 꼬고 발 쭉... 옆 승객 옷까지 위협한 '민폐 자세', 비판 쏟아졌다</div></a>
+<a class="card" href="https://www.instagram.com/p/DeKzqaXCHUF/" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="badge">#4</span><span class="link-icon">↗</span></div><div class="card-title">폭염에 30경기나 취소됐는데도... 프로야구 관중 1236만명 역대 최다</div></a>
+<a class="card" href="https://www.instagram.com/p/DeJ8uhXjZow/" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="badge">#5</span><span class="link-icon">↗</span></div><div class="card-title">구조 실패 생중계 뒤 더 몰렸다... '부캉이' 보러 부산 북항 찾은 101만명</div></a>
+<a class="card" href="https://www.instagram.com/p/DeJZ0kkpxqU/" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="badge">#6</span><span class="link-icon">↗</span></div><div class="card-title">9년 지킨 라디오 잠시 떠나는 이수영... 아들 백혈병 투병 사실 직접 알렸다</div></a>
+<a class="card" href="https://www.instagram.com/p/DeJriH2jE2P/" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="badge">#7</span><span class="link-icon">↗</span></div><div class="card-title">검찰 폐지되는 날, 27개월 여아 수술 중 심정지... 부모 "경찰, 어떻게 해야할지 몰라"</div></a>
+<a class="card" href="https://www.instagram.com/p/DeJoIfeid_P/" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="badge">#8</span><span class="link-icon">↗</span></div><div class="card-title">"불꽃놀이 취소합니다" 축제 앞두고 내려진 결정...멸종위기종 보호 나섰다</div></a>
+<a class="card" href="https://www.instagram.com/p/DeJZvHWpldE/" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="badge">#9</span><span class="link-icon">↗</span></div><div class="card-title">”군 면제만 보고 뛰었다“ 국대 논란에... 국방부, 병역특례 감면·폐지 계획 언급</div></a>
+<a class="card" href="https://www.instagram.com/p/DeJFzVVJE_0/" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="badge">#10</span><span class="link-icon">↗</span></div><div class="card-title">트럼프 지지율 30% 초반 급락... 이란전쟁 후 민생고에 중간선거 위기</div></a>
+<a class="card" href="https://www.instagram.com/p/DeIzftdiZJm/" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="badge">#11</span><span class="link-icon">↗</span></div><div class="card-title">"불꽃놀이 취소합니다" 축제 앞두고 내려진 결정...멸종위기종 보호 나섰다</div></a>
+<a class="card" href="https://www.instagram.com/p/DeIVs83DRb7/" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="badge">#12</span><span class="link-icon">↗</span></div><div class="card-title">’데이트 폭력 의혹‘ 닛몰캐쉬, 전 연인 주장 인정... 결국 활동 중단</div></a>
+</div></div>
+</body></html>
